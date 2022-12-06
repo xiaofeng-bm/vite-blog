@@ -1,0 +1,4 @@
+.vt-doc :not(pre) > code {
+  background-color: #fff5f5 !important;
+  color: #ff502c !important;
+}
