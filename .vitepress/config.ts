@@ -7,7 +7,7 @@ import { sidebar } from './siderbar'
 
 export default defineConfigWithTheme({
   extends: baseConfig,
-  base: '/blog',
+  base: '/vite-blog/',
   lang: 'zh-CN',
   title: '晓枫博客',
   description: '日常学习记录',
