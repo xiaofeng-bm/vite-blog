@@ -12,7 +12,7 @@ export const nav = [
     items: [
       { text: "leetcode", link: "/leetcode/easy/1.两数之和" },
       { text: "typescript", link: "/typescript/1.ts环境搭建" },
-      { text: "前端工程化", link: "/project/1.modules" },
+      { text: "前端工程化", link: "/sort/project/1.modules" },
     ],
   },
   {

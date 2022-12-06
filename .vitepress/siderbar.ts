@@ -118,21 +118,24 @@ export const sidebar = {
       },
     ] }
   ],
-  "/project/": [
+  "/sort/": [
     {
       text: '前端工程化',
       items: [
-        { text : '1.模块化', link: '/project/1.modules'},
-        { text : '2.代码规范', link: '/project/2.代码规范'},
-        { text : '3.提交规范', link: '/project/3.提交规范'},
+        { text : '1.模块化', link: '/sort/project/1.modules'},
+        { text : '2.代码规范', link: '/sort/project/2.代码规范'},
+        { text : '3.提交规范', link: '/sort/project/3.提交规范'},
       ]
     },
     {
-      text: 'webpack',
+      text: "困难",
       items: [
-        { text: '1.webpack简介', link: '/project/webpack/1.webpack简介' }
-      ]
-    }
+        {
+          text: "1.webpack",
+          link: "/sort/webpack/1.webpack",
+        },
+      ],
+    },
   ],
   "/frame/": [
     {
