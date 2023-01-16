@@ -141,18 +141,22 @@ export const sidebar = {
     {
       text: '基础知识',
       items: [
-        {  
-          text: '1.hooks简介',
-          link: '/frame/react/1.hooks简介'
+        {
+          text: '1.props',
+          link: '/frame/react/1.props'
         },
-        {  
-          text: '2.hooks分类',
-          link: '/frame/react/2.hooks分类'
-        },
-        {  
-          text: '3.自定义hooks',
-          link: '/frame/react/3.自定义hooks'
-        }
+        // {  
+        //   text: '1.hooks简介',
+        //   link: '/frame/react/1.hooks简介'
+        // },
+        // {  
+        //   text: '2.hooks分类',
+        //   link: '/frame/react/2.hooks分类'
+        // },
+        // {  
+        //   text: '3.自定义hooks',
+        //   link: '/frame/react/3.自定义hooks'
+        // }
       ]
     }
   ]
