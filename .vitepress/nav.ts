@@ -18,6 +18,6 @@ export const nav = [
   {
     text: '框架',
     activeMatch: '^/frame/',
-    items: [{ text: 'react学习', link: '/frame/react/1.hooks简介' }]
+    items: [{ text: 'react学习', link: '/frame/react/1.hooks' }]
   }
 ];

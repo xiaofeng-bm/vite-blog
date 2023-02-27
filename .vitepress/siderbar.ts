@@ -128,12 +128,16 @@ export const sidebar = {
       ]
     },
     {
-      text: "困难",
+      text: "webpack",
       items: [
         {
           text: "1.webpack",
           link: "/sort/webpack/1.webpack",
         },
+        {
+          text: '2.ssr原理',
+          link: '/sort/webpack/2.react-ssr'
+        }
       ],
     },
   ],
