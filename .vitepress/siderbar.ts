@@ -131,12 +131,16 @@ export const sidebar = {
       text: "webpack",
       items: [
         {
-          text: "1.webpack",
+          text: "1.webpack基础配置",
           link: "/sort/webpack/1.webpack",
         },
         {
           text: '2.ssr原理',
           link: '/sort/webpack/2.react-ssr'
+        },
+        {
+          text: '3.webpack性能优化',
+          link: '/sort/webpack/3.performance'
         }
       ],
     },
