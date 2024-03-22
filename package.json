@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "vitepress",
+    "start": "vitepress --port 4000",
     "build": "vitepress build",
     "serve": "vitepress serve",
     "zhlint": "zhlint 'src/guide/**/*.md'",

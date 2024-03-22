@@ -1,10 +1,8 @@
 export const nav = [
   {
-    text: '基础',
+    text: "基础",
     activeMatch: "^/base/",
-    items: [
-      { text: 'css', link: '/base/css/1.选择器' }
-    ]
+    items: [{ text: "css", link: "/base/css/1.选择器" }, { text: "Docker", link: "/docker/1.desktop" }],
   },
   {
     text: "分类",
@@ -16,8 +14,10 @@ export const nav = [
     ],
   },
   {
-    text: '框架',
-    activeMatch: '^/frame/',
-    items: [{ text: 'react学习', link: '/frame/react/1.hooks' }]
-  }
+    text: "框架",
+    activeMatch: "^/frame/",
+    items: [
+      { text: "nestjs", link: "/nest/1.nest基础" },
+    ],
+  },
 ];

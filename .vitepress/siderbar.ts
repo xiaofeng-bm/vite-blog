@@ -1,11 +1,18 @@
 export const sidebar = {
   "/base/": [
     {
-      text: 'css',
+      text: "css",
+      items: [{ text: "1.css选择器", link: "/base/css/1.选择器" }],
+    },
+  ],
+  "/docker/": [
+    {
+      text: "Docker",
       items: [
-        { text: '1.css选择器', link: '/base/css/1.选择器' }
-      ]
-    }
+        { text: "1.Desktop使用", link: "/docker/1.desktop" },
+        { text: "2.Dockerfile配置", link: "/docker/2.dockerfile" },
+      ],
+    },
   ],
   "/leetcode/": [
     {
@@ -103,29 +110,32 @@ export const sidebar = {
     },
   ],
   "/typescript/": [
-    { text: 'ts基础', items: [
-      {  
-        text: '1.ts环境搭建',
-        link: '/typescript/1.ts环境搭建'
-      },
-      {  
-        text: '2.基础类型',
-        link: '/typescript/2.基础类型'
-      },
-      {  
-        text: '3.函数类型',
-        link: '/typescript/3.函数类型'
-      },
-    ] }
+    {
+      text: "ts基础",
+      items: [
+        {
+          text: "1.ts环境搭建",
+          link: "/typescript/1.ts环境搭建",
+        },
+        {
+          text: "2.基础类型",
+          link: "/typescript/2.基础类型",
+        },
+        {
+          text: "3.函数类型",
+          link: "/typescript/3.函数类型",
+        },
+      ],
+    },
   ],
   "/sort/": [
     {
-      text: '前端工程化',
+      text: "前端工程化",
       items: [
-        { text : '1.模块化', link: '/sort/project/1.modules'},
-        { text : '2.代码规范', link: '/sort/project/2.代码规范'},
-        { text : '3.提交规范', link: '/sort/project/3.提交规范'},
-      ]
+        { text: "1.模块化", link: "/sort/project/1.modules" },
+        { text: "2.代码规范", link: "/sort/project/2.代码规范" },
+        { text: "3.提交规范", link: "/sort/project/3.提交规范" },
+      ],
     },
     {
       text: "webpack",
@@ -135,37 +145,20 @@ export const sidebar = {
           link: "/sort/webpack/1.webpack",
         },
         {
-          text: '2.ssr原理',
-          link: '/sort/webpack/2.react-ssr'
+          text: "2.ssr原理",
+          link: "/sort/webpack/2.react-ssr",
         },
         {
-          text: '3.webpack性能优化',
-          link: '/sort/webpack/3.performance'
-        }
+          text: "3.webpack性能优化",
+          link: "/sort/webpack/3.performance",
+        },
       ],
     },
   ],
   "/frame/": [
     {
-      text: '基础知识',
-      items: [
-        {
-          text: '1.props',
-          link: '/frame/react/1.props'
-        },
-        // {  
-        //   text: '1.hooks简介',
-        //   link: '/frame/react/1.hooks简介'
-        // },
-        // {  
-        //   text: '2.hooks分类',
-        //   link: '/frame/react/2.hooks分类'
-        // },
-        // {  
-        //   text: '3.自定义hooks',
-        //   link: '/frame/react/3.自定义hooks'
-        // }
-      ]
-    }
-  ]
+      text: "nest基础",
+      items: [{ text: "1.nest基础", link: "/nest/1.nest基础" }],
+    },
+  ],
 };
