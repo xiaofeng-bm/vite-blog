@@ -1,0 +1,1 @@
+import{_ as t,o as d,c as e,a as o}from"./app.1bea4cfd.js";const S='{"title":"\u6A21\u5757\u5316\u89C4\u8303","description":"","frontmatter":{},"headers":[],"relativePath":"sort/project/1.modules.md"}',r={},c=o("",10),i=[c];function l(a,s,_,n,p,h){return d(),e("div",null,i)}var f=t(r,[["render",l]]);export{S as __pageData,f as default};
