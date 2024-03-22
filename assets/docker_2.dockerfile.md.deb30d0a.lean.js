@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,b as a}from"./app.71119768.js";const m='{"title":"","description":"","frontmatter":"2.Dockerfile\u914D\u7F6E","headers":[],"relativePath":"docker/2.dockerfile.md"}',r={},c=a("p",null,"aaa",-1),s=[c];function n(_,d,i,l,p,f){return t(),o("div",null,s)}var u=e(r,[["render",n]]);export{m as __pageData,u as default};

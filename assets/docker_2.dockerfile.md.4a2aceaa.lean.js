@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r}from"./app.1bea4cfd.js";const p='{"title":"","description":"","frontmatter":"2.Dockerfile\u914D\u7F6E","headers":[],"relativePath":"docker/2.dockerfile.md"}',o={};function a(c,s,n,_,i,d){return t(),r("div")}var l=e(o,[["render",a]]);export{p as __pageData,l as default};
